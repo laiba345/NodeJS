@@ -9,7 +9,7 @@
 // 1、导入fs模块
 const fs = require('fs')
 
-// 2、写入文件
+// 2、写入文件； 第二个参数是需要写入的内容
 fs.writeFile('./座右铭.txt','三人行,必有我老师', err => {
     if(err) {
         console.log('写入失败')

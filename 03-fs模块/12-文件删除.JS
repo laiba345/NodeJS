@@ -1,4 +1,4 @@
-// 文件删除
+// 文件删除; unlink() && rm() 
 // 1、导入fs模块
 const fs = require('fs')
 

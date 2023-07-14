@@ -10,7 +10,7 @@ const fs = require('fs')
 //     console.log('创建成功')
 // })
 
-// 递归创建
+// 递归创建, 第二个参数就是专门用来配置相关属性
 // fs.mkdir('./a/b/c', { recursive: true }, err => {
 //     if (err) {
 //         console.log('创建失败')

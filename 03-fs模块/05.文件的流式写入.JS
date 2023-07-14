@@ -6,7 +6,7 @@
 // 1、导入fs模块
 const fs = require('fs')
 
-// 2、创建写入流对象
+// 2、创建写入流对象; 写入流对象 createWriteStream() 
 const ws = fs.createWriteStream('./观书有感.txt')
 
 // 3、write

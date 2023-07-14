@@ -12,5 +12,5 @@ const fs = require('fs')
 
 // 同步追加写入
 // 追加的时候，可以换行追加等
-// 
+// appendFileSync
 fs.appendFileSync('./座右铭.txt', '\r\ntest')

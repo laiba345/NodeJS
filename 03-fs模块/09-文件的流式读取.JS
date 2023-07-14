@@ -9,6 +9,7 @@ const fs = require('fs')
 const rs = fs.createReadStream('./观书有感.txt')
 
 // 3、绑定data事件:用来获取读取到的数据
+// 创建流对象以后，通过绑定相关内容，res.on()
 rs.on('data', chunk => {
     // console.log(chunk.length)
     console.log(chunk.toString())
