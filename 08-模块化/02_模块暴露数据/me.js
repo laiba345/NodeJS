@@ -8,13 +8,13 @@ function niejiao(){
   console.log('捏脚....');
 }
 
-//暴露数据
+//暴露数据  暴露对象
 // module.exports = {
 //   tiemo,
 //   niejiao
 // }
 
-// exports 暴露数据
+// exports 暴露数据 需要用点的形式，但是不能够直接暴露数据
 // exports.niejiao = niejiao;
 // exports.tiemo = tiemo;
 

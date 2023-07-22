@@ -1,7 +1,7 @@
-//导入模块  // fs 
+// 导入模块  // fs 
 // const tiemo = require('./me.js');
 
-//省略后缀 JS
+// 省略后缀 JS
 // const tiemo = require('./me');
 
 //导入 JSON 文件
